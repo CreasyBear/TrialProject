@@ -18,7 +18,7 @@ export default function HeroSection({}: HeroSectionProps) {
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl animate-moveUp">
             Experience the future of energy with RENOZ battery systems.
-            Powerful, Refined,  Sustainable.
+            Powerful, Refined, Sustainable.
           </p>
           <Button size="lg" className="animate-appear">Discover Our Solutions</Button>
         </div>

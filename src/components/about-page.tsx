@@ -50,7 +50,7 @@ export default function AboutPage() {
             </div>
             <div>
               <p className="text-lg mb-4">
-                At RENOZ Energy, we're redefining battery technology through intelligent power management. Our batteries combine cutting-edge technology with thoughtful design, offering an energy solution that's both powerful and refined.
+                At RENOZ Energy, we&apos;re redefining battery technology through intelligent power management. Our batteries combine cutting-edge technology with thoughtful design, offering an energy solution that&apos;s both powerful and refined.
               </p>
               <p className="text-lg mb-4">
                 We believe in creating battery systems that not only meet the energy demands of today but also pave the way for a sustainable future. Our focus on performance, longevity, and sustainability drives every aspect of our design and manufacturing process.

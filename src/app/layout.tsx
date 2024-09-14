@@ -5,7 +5,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-import ErrorBoundary from '@/components/error-boundary'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,11 +27,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </noscript>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ErrorBoundary fallback={<div>Something went wrong. Please try again later.</div>}>
-            <Navbar />
-            <main id="main-content">{children}</main>
-            <Footer />
-          </ErrorBoundary>
+          <Navbar />
+          <main id="main-content">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
