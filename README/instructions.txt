@@ -1,0 +1,50 @@
+This is the working folder "/Users/joelchan/Desktop/WebDevelopment/RenOzWebsite/renozwebsite"
+
+Instructions for Generic Startup Website Template Development
+
+1. Overall Design Principles:
+   - Use v0 by Vercel to generate design elements (backgrounds, icons, logos)
+   - Implement responsive design for all components (mobile, tablet, desktop)
+   - Use Tailwind CSS for styling
+   - Ensure accessibility compliance (WCAG 2.1 AA)
+
+2. Navbar (Update existing component in renozwebsite/src/components/navbar.tsx):
+   - Use v0 to generate a logo
+   - Use v0 to generate a mobile menu icon
+   - Implement basic responsive behavior
+
+3. Hero Section (Update existing component in renozwebsite/src/components/hero-section.tsx):
+   - Use v0 to generate a background image or pattern
+   - Ensure text is centered and readable on all devices
+
+4. Features Section (Create new component: renozwebsite/src/components/features-section.tsx):
+   - Use v0 to generate feature icons
+   - Create three feature cards
+   - Use a responsive grid layout (1 column on mobile, 3 on desktop)
+
+5. Social Proof Section (Update existing component in renozwebsite/src/components/social-proof-section.tsx):
+   - Change title to "Trusted by Leading Companies"
+   - Use v0 to generate placeholder company logos
+   - Implement a simple grid layout for logos
+
+6. Testimonials Section (Create new component: renozwebsite/src/components/testimonials-section.tsx):
+   - Use v0 to generate placeholder avatar images
+   - Implement a simple testimonial card layout
+
+7. Call-to-Action (CTA) Section (Create new component: renozwebsite/src/components/cta-section.tsx):
+   - Use a contrasting background color
+   - Include a compelling headline, subtext, and prominent CTA button
+
+8. Footer (Create new component: renozwebsite/src/components/footer.tsx):
+   - Use v0 to generate social media icons
+   - Include logo, copyright information, and links to key pages
+
+9. Performance and SEO:
+   - Implement lazy loading for images and components below the fold
+   - Add appropriate meta tags in the <head> section
+
+10. Documentation:
+    - Add comments to explain where v0-generated elements should be placed
+    - Create a README.md file with setup instructions and component overview
+
+Remember to use v0 prompts for generating design elements and placeholder content. Regularly test on various devices and browsers to ensure a consistent user experience.
