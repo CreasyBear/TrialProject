@@ -9,6 +9,7 @@ const TestimonialsSection = dynamic(() => import('@/components/testimonials-sect
 const CTASection = dynamic(() => import('@/components/cta-section'))
 
 export default function Home() {
+  console.log('Home page rendered');
   return (
     <main>
       <HeroSection />
